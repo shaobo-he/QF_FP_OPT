@@ -1,4 +1,4 @@
-(set-info :total-time 178.57)
+(set-info :min-time 0.025198022)
 ; Start decls (8)
 (declare-fun v_main_~E0~7_4_const_-198134962 () (_ FloatingPoint 11 53))
 (declare-fun v_main_~E1~7_3_const_-199062578 () (_ FloatingPoint 11 53))

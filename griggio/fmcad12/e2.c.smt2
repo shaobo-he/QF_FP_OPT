@@ -1,4 +1,4 @@
-(set-info :total-time 1.57)
+(set-info :min-time 1.052123149)
 ; Start decls (13)
 (declare-fun b13 () (_ FloatingPoint 11 53))
 (declare-fun b14 () (_ FloatingPoint 11 53))

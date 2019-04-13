@@ -1,4 +1,4 @@
-(set-info :total-time 137.15)
+(set-info :min-time 0.028295322)
 ; Start decls (11)
 (declare-fun |v_blur_#in~x_1_const_1023023889| () (_ FloatingPoint 11 53))
 (declare-fun |v_blur_#in~xm1_1_const_-393664579| () (_ FloatingPoint 11 53))

@@ -1,4 +1,4 @@
-(set-info :total-time 49.59)
+(set-info :min-time 87.620726986)
 ; Start decls (1)
 (declare-fun |c::main::1::IN!0@1#0| () (_ FloatingPoint 8 24))
 ; End decls

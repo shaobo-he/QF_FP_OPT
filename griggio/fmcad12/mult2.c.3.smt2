@@ -1,0 +1,25 @@
+(set-info :min-time 0.34180228)
+; Start decls (7)
+(declare-fun b10 () (_ FloatingPoint 8 24))
+(declare-fun b11 () (_ FloatingPoint 8 24))
+(declare-fun b14 () (_ FloatingPoint 8 24))
+(declare-fun b17 () (_ FloatingPoint 8 24))
+(declare-fun b20 () (_ FloatingPoint 8 24))
+(declare-fun b34 () (_ FloatingPoint 8 24))
+(declare-fun b37 () (_ FloatingPoint 8 24))
+; End decls
+; Start constraints (7)
+(assert (fp.lt b34 b11))
+(assert (fp.lt (fp.mul roundNearestTiesToEven
+               (fp.mul roundNearestTiesToEven
+                       (fp.mul roundNearestTiesToEven b11 b10)
+                       b14)
+               b17)
+       b20))
+(assert (fp.lt b11 b37))
+(assert (fp.lt b34 b14))
+(assert (fp.lt b14 b37))
+(assert (fp.lt b34 b17))
+(assert (fp.lt b17 b37))
+; End constraints
+(check-sat)
